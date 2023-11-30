@@ -143,6 +143,11 @@ footer {
     text-align: center;
     padding: 0;
   }
+
+
+  nav a {
+    font-size: 14px;
+  }
   
 }
 
@@ -190,3 +195,47 @@ footer {
 
 }
 
+
+/* NAVBAR */
+
+.logo {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  
+}
+
+
+nav {
+  padding: 20px 0;
+
+}
+
+
+nav ul {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+  
+}
+
+nav a {
+  font-size: 22px;
+  text-decoration: none;
+  color: #212529;
+  transition: all 100ms ease-in-out;
+}
+
+
+nav a:hover {
+  color: var(--branding-color);
+
+}
