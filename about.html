@@ -14,25 +14,26 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="styles/portfolio.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="a brief introduction about Catalina and her journey through coding">
     <title>About Catalina Opazo - Front-end developer</title>
 </head>
 <body>
     <div class="container">
         <nav class="d-flex justify-content-between">
-            <a href="/" class="logo d-none d-md-block">👩🏻‍💻Catalina Opazo</a>
-            <a href="#" class="logo d-block d-md-none">👩🏻‍💻</a>
+            <a href="/" class="logo d-none d-md-block" title="Homepage to Catalina's website">👩🏻‍💻Catalina Opazo</a>
+            <a href="/" class="logo d-block d-md-none" title="Homepage to Catalina's website">👩🏻‍💻</a>
             <ul>
                 <li>
-                    <a href="/">Home</a>
+                    <a href="/" title="Homepage to Catalina's website">Home</a>
+                </li>
+                <li class="active">
+                    <a href="about.html" title="About Catalina">About</a>
                 </li>
                 <li>
-                    <a href="about.html">About</a>
+                    <a href="work.html" title="Catalina's work">Work</a>
                 </li>
                 <li>
-                    <a href="work.html">Work</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.html" title="Contact Catalina">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -52,13 +53,43 @@
                        <br>
                        I am still in the process of learning (React is coming next!😎), but in the meantime, you can check out my main projects so far.
                     </p>
-                    <a href="#" class="btn btn-branding">See my projects</a>
+                    <a href="/work.html" class="btn btn-branding">See my projects</a>
                 </div>              
             </div>
             <div class="col-lg-6 text-center mt-4">
                 <img src="images/catalina.jpg" class="img-fluid rounded" width="350px" alt="picture of Cataliona Opazo">
             </div>      
-        </div>    
+        </div>
+        <footer>
+            <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+                <div>
+                    <h3>
+                        Work Inquiry
+                    </h3>
+                    <p class="text-muted">Let's work together!</p>
+                </div>
+                <div>
+                    <a href="mailto:catalina.opazo.elt@gmail.com" class="btn btn-branding" title="contact catalina">Contact
+                        me</a>
+                </div>
+            </div>
+            <div class="social-links d-flex justify-content-center mb-5">
+                <a href="https://instagram.com/ms_catrala" target="_blank" title="Instagram profile">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://github.com/catralars" target="_blank" title="GitHub profile">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://facebook.com" target="_blank" title="Facebook profile">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+            <p class="text-center mt-5">
+                This project was coded by Catalina and is <a href="https://github.com/catralars/responsive-w4"
+                    class="project-link" target="_blank">open-sourced</a> <i class="fa-solid fa-heart fa-beat"
+                    style="color: #d72885;"></i>
+            </p>
+        </footer>
     </div>
     
 </body>
